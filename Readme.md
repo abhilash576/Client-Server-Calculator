@@ -9,8 +9,8 @@ Please send <ctrl+c> to close the server.
    
  Steps to compile and run the server program		Steps to compile and run the client program
  -------------------------------------------		--------------------------------------------
-javac SockServer1.java					javac SockClient1.java
-java SockServer1					java SockClient1 <input integer>
+javac SockServer1.java					  	javac SockClient1.java
+java SockServer1						java SockClient1 <input integer>
 
 	
 2. In this program the client can send either a "integer" or "reset" keyword.
