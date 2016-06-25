@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ser422_2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Task2b</servlet-name>
+    <servlet-class>lab2task2.Task2b</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Task2b</servlet-name>
+    <url-pattern>/lab2task2/Task2b</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page1</servlet-name>
+    <servlet-class>lab2task2.Page1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page1</servlet-name>
+    <url-pattern>/lab2task2/Page1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page2</servlet-name>
+    <servlet-class>lab2task2.Page2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page2</servlet-name>
+    <url-pattern>/lab2task2/Page2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page3</servlet-name>
+    <servlet-class>lab2task2.Page3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page3</servlet-name>
+    <url-pattern>/lab2task2/Page3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page4</servlet-name>
+    <servlet-class>lab2task2.Page4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page4</servlet-name>
+    <url-pattern>/lab2task2/Page4</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page5</servlet-name>
+    <servlet-class>lab2task2.Page5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page5</servlet-name>
+    <url-pattern>/lab2task2/Page5</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page6</servlet-name>
+    <servlet-class>lab2task2.Page6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page6</servlet-name>
+    <url-pattern>/lab2task2/Page6</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page7</servlet-name>
+    <servlet-class>lab2task2.Page7</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page7</servlet-name>
+    <url-pattern>/lab2task2/Page7</url-pattern>
+  </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/lab2task2/error404.htm</location>
+</error-page>
+   	
+
+</web-app>
